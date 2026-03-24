@@ -51,7 +51,7 @@
 .hero-photo-placeholder {
   width: 100%;
   max-width: 380px;
-  aspect-ratio: 3 / 4;
+  aspect-ratio: 3/4;
   background: var(--white);
   border-radius: var(--radius-xl);
   box-shadow: var(--shadow-lg);
@@ -97,7 +97,6 @@
   box-shadow: var(--shadow-lg);
 }
 
-/* ── RIGHT — details ── */
 .hero-details {
   display: flex;
   flex-direction: column;
@@ -156,7 +155,6 @@
   font-weight: 400;
 }
 
-/* Contact rows */
 .hero-contact {
   display: flex;
   flex-direction: column;
@@ -197,7 +195,6 @@
   flex-wrap: wrap;
 }
 
-/* Buttons */
 .btn {
   display: inline-flex;
   align-items: center;
@@ -209,7 +206,7 @@
   padding: 14px 28px;
   border-radius: var(--radius-pill);
   transition: background 0.2s, color 0.2s, box-shadow 0.2s, transform 0.2s;
-  cursor: none;
+  cursor: default;
   line-height: 1;
 }
 .btn:hover { transform: translateY(-2px); }
@@ -229,7 +226,6 @@
 }
 .btn--outline:hover { border-color: var(--accent); color: var(--accent); }
 
-/* ── BOTTOM — stats strip ── */
 .hero-stats-strip {
   background: var(--bg-dark);
   position: relative;
@@ -316,7 +312,6 @@
   margin-top: 6px;
 }
 
-/* ── ENTRANCE ANIMATIONS ── */
 .anim { opacity: 0; transform: translateY(20px); animation: fadeUp 0.7s var(--ease-out) forwards; }
 .anim-1 { animation-delay: 0.1s; }
 .anim-2 { animation-delay: 0.22s; }
@@ -328,7 +323,6 @@
   to { opacity: 1; transform: translateY(0); }
 }
 
-/* ── RESPONSIVE ── */
 @media (max-width: 960px) {
   .hero-top { grid-template-columns: 1fr; }
   .hero-photo-wrap { padding: 48px 20px 40px; min-height: 360px; }
