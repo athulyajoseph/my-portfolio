@@ -3,7 +3,7 @@ export const data = {
   title: "Senior Full Stack Developer",
   tagline: "PHP · Laravel · React · AngularJS",
   summary:
-    "8+ years crafting scalable web applications across industries — from port logistics to e-commerce. Precision at every layer of the stack.",
+    "8+ years of experience building scalable web applications across logistics, enterprise systems, and analytics platforms. I specialize in PHP, Laravel,JavaScript, React and headless CMS on delivering reliable, maintainable systems that perform consistently in real-world environments. I thrive in Agile teams, value clean code, and believe the best engineers are the ones who make their teams better.",
   location: "Berlin, Germany",
   email: "athulyajoseph0@gmail.com",
   phone: "+49 152 1453 2946",
@@ -13,18 +13,36 @@ export const data = {
     { num: "8+", label: "Years Experience" },
     { num: "4", label: "Companies" },
     { num: "15+", label: "Technologies" },
-    { num: "∞", label: "Lines Shipped" },
+    { num: "500k+", label: "Users Served" },
   ],
 
   about: [
     "I'm a Senior Full Stack Developer with over 8 years of experience designing and delivering scalable web applications across diverse industries — from port logistics and vehicle fleet management to e-commerce and enterprise CMS platforms.",
     "My core expertise spans PHP ecosystems (Laravel, CodeIgniter), modern JavaScript frontends (React, Angular), and cloud-native DevOps practices. I've led architecture migrations, built RESTful microservice APIs at scale, and integrated analytics platforms like Adobe Analytics and Adobe Target.",
-    "Currently based in Berlin, I thrive in Agile environments, value clean code over clever code, and believe the best engineers are the ones who make their teams better.",
+    "I thrive in Agile environments, value clean code over clever code, and believe the best engineers are the ones who make their teams better.",
+    "Core strengths:"
+  ],
+
+  coreStrengths: [
+    "Backend development with PHP and relational databases",
+    "Building responsive and intuitive frontend interfacesusing React and Angular",
+    "Improving performance and optimizing existing systems",
+    "Designing efficient database schemas and optimizing queries",
+    "Implementing CI/CD pipelines and Docker-based deployments",
+    "Integrating analytics for data-driven product improvements",
+    "Mentoring junior developers and leading Agile teams"
+  ],
+
+  aboutBullets: [
+    "8+ years of professional development experience",
+    "Proven track record of delivering high-impact projects for clients like Harley-Davidson and xPort",      
+    "Strong focus on clean architecture and scalable systems",
+    "Experienced in delivering end-to-end web solutions"
   ],
 
   skills: [
     {
-      skillicon: "faCode", // Replace with actual FontAwesomeIcon component in Skills.jsx
+      skillicon: "faCode", 
       title: "Backend",
       tags: ["PHP", "Laravel", "CodeIgniter", "Core PHP", "RESTful APIs", "MVC Architecture"],
     },
@@ -50,8 +68,8 @@ export const data = {
     },
     {
       icon: "faCheckSquare",
-      title: "Methods & Testing",
-      tags: ["Agile", "Scrum", "PHPUnit", "Sprint Planning", "Technical Documentation"],
+      title: "Practices & Tools",
+      tags: ["Debugging", "Performance Optimization", "Code Refactoring", "Agile/Scrum", "PHPUnit", "Technical Documentation"],
     },
   ],
 
@@ -62,12 +80,13 @@ export const data = {
       period: "Aug 2021 — Present",
       bullets: [
         "Led full stack development for Harley-Davidson and xPort (port management platform) using Laravel, React, AngularJS, AEM & Contentful.",
-        "Designed and maintained scalable RESTful APIs and microservice-oriented backend modules.",
+        "Designed and maintained scalable RESTful APIs handling high traffic and complex business logic.",
         "Spearheaded a major architecture migration for xPort, modernizing the codebase for improved scalability and deployment reliability.",
         "Optimized PostgreSQL, MySQL, and Redis caching strategies to boost API response times.",
         "Implemented Docker-based deployments and CI/CD pipelines for automated releases.",
         "Integrated Adobe Analytics & Adobe Target for A/B personalization and user behavior tracking.",
-        "Mentored junior developers, conducted code reviews, and led Agile/Scrum ceremonies.",
+        "Collaborated with cross-functional teams to deliver features aligned with business needs",
+        "Mentored developers and conducted code reviews to maintain code quality",
       ],
       tags: ["PHP", "Laravel", "React", "AngularJS", "TypeScript", "PostgreSQL", "MySQL", "AEM", "Contentful", "Adobe Analytics", "Adobe Target","Contentsquare", "Redis", "Active Directory", "Jenkins", "Jira", "Docker", "Linux", "Agile", "Scrum", "PHPUnit", "Sprint Planning", "Technical Documentation"],
     },
@@ -112,29 +131,29 @@ export const data = {
       num: "01",
       client: "Harley-Davidson",
       name: "Global Web Platform",
-      desc: "Led full stack development of the Harley-Davidson web platform, integrating AEM CMS with Laravel backend and Adobe Analytics for personalized user experiences across global markets.",
-      tags: ["Laravel", "AEM", "React", "Adobe Target"],
+      desc: "Led full stack development of the Harley-Davidson web platform, integrating AEM, Contentful with Adobe Target and Adobe Analytics for personalized user experiences across global markets.",
+      tags: ["AEM", "Contentful", "Adobe Analytics", "Adobe Target"],
     },
     {
       num: "02",
       client: "xPort",
       name: "Port Management Platform",
-      desc: "Architected and led migration of a legacy port management platform to a modern scalable architecture. Built microservice-based APIs, Docker CI/CD pipelines, and optimized PostgreSQL/Redis for high-throughput operations.",
-      tags: ["Laravel", "AngularJS", "PostgreSQL", "Docker"],
+      desc: "Architected and led migration of a legacy port management platform to a modern scalable architecture. Built RESTful APIs, Docker CI/CD pipelines, and optimized PostgreSQL/Redis for high-throughput operations.",
+      tags: ["Laravel", "AngularJS", "PostgreSQL", "Docker", "Redis"],
     },
     {
       num: "03",
       client: "Loqqat",
       name: "School Bus Tracking System",
       desc: "Built real-time vehicle tracking backend for schools and enterprises. Designed high-frequency MySQL schemas, REST APIs for mobile clients, and cloud integrations handling thousands of concurrent location updates.",
-      tags: ["Laravel", "Angular", "MySQL", "Real-time"],
+      tags: ["Laravel", "Angular", "MySQL", "REST API", "Amazon S3"],   
     },
     {
       num: "04",
       client: "Loqqat Ride",
       name: "Employee Commute Platform",
-      desc: "Developed the employee commute management platform for enterprise clients. Integrated third-party cloud services with an Angular frontend, enabling seamless tracking, scheduling, and route optimization.",
-      tags: ["Laravel", "Bootstrap", "REST API", "Cloud"],
+      desc: "Developed the employee commute management platform for enterprise clients. Integrated third-party cloud services, enabling seamless tracking, scheduling, and route optimization.",
+      tags: ["Laravel", "Bootstrap", "REST API", "JavaScript"],
     },
   ],
 

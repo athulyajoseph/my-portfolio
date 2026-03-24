@@ -2,6 +2,12 @@ import { useReveal } from './useReveal';
 import SectionHeader from './SectionHeader';
 import { data } from '../data/portfolio';
 import './About.css';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import { faPhone } from "@fortawesome/free-solid-svg-icons";
+import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
+import { faMapMarkerAlt } from "@fortawesome/free-solid-svg-icons";
 
 export default function About() {
   const [leftRef, leftVisible] = useReveal();
@@ -16,29 +22,48 @@ export default function About() {
             <blockquote className="about-quote">
               "Engineering systems that scale, teams that grow, products that last."
             </blockquote>
-            {/* <div className="about-contact">
-              <a href={`mailto:${data.email}`} className="contact-item">
-                <span className="contact-icon">✉</span>
-                {data.email}
-              </a>
-              <a href={`tel:${data.phone}`} className="contact-item">
-                <span className="contact-icon">☏</span>
-                {data.phone}
-              </a>
-              <a href={data.linkedin} target="_blank" rel="noreferrer" className="contact-item">
-                <span className="contact-icon">in</span>
-                linkedin.com/in/athulyajoseph
-              </a>
-              <span className="contact-item">
-                <span className="contact-icon">◉</span>
-                {data.location}
+            <div className="hero-contact anim anim-4">
+            <a href={`mailto:${data.email}`} className="hero-contact-item">
+              <span className="hero-contact-icon">
+                <FontAwesomeIcon icon={faEnvelope} size="1x" />
               </span>
-            </div> */}
+              {data.email}
+            </a>
+            <a href={`tel:${data.phone}`} className="hero-contact-item">
+              <span className="hero-contact-icon">
+                <FontAwesomeIcon icon={faPhone} size="1x" />
+              </span>
+              {data.phone}
+            </a>
+            <a href={data.linkedin} target="_blank" rel="noreferrer" className="hero-contact-item">
+              <span className="hero-contact-icon">
+                <FontAwesomeIcon icon={faLinkedin} size="1x" />
+              </span>
+             linkedin.com/in/athulyajoseph
+            </a>
+            <a href={data.github} target="_blank" rel="noreferrer" className="hero-contact-item">
+              <span className="hero-contact-icon">
+                <FontAwesomeIcon icon={faGithub} size="1x" />
+              </span>
+              github.com/athulyajoseph
+            </a>
+            <span className="hero-contact-item">
+              <span className="hero-contact-icon">
+                <FontAwesomeIcon icon={faMapMarkerAlt} size="1x" />
+              </span>
+              {data.location}
+            </span>
+          </div>
           </div>
           <div ref={rightRef} className={`about-right${rightVisible ? ' visible' : ''}`}>
             {data.about.map((p, i) => (
               <p key={i} className="about-text">{p}</p>
             ))}
+            <ul className="core-strengths">
+              {data.coreStrengths.map((s, i) => (
+                <li key={i} className="core-strength">{s}</li>
+              ))}
+            </ul>
           </div>
         </div>
       </div>
