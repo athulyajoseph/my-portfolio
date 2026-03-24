@@ -6,7 +6,7 @@ import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { faPhone } from "@fortawesome/free-solid-svg-icons";
 import { faMapMarkerAlt } from "@fortawesome/free-solid-svg-icons";
-import { faFilePdf } from "@fortawesome/free-solid-svg-icons";
+// import { faFilePdf } from "@fortawesome/free-solid-svg-icons";
 import resumePDF from '../assets/Athulya Joseph Resume.pdf';
 
 export default function Hero() {

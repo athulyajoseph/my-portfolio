@@ -10,8 +10,8 @@ import { faCloud } from "@fortawesome/free-solid-svg-icons";
 import { faChartLine } from "@fortawesome/free-solid-svg-icons";
 import { faCheckSquare } from "@fortawesome/free-solid-svg-icons";
 import { faServer } from "@fortawesome/free-solid-svg-icons";
-import { faCheckSquare as faCheckSquareRegular } from "@fortawesome/free-regular-svg-icons";
-import { faCheckSquare as faCheckSquareSolid } from "@fortawesome/free-solid-svg-icons";
+// import { faCheckSquare as faCheckSquareRegular } from "@fortawesome/free-regular-svg-icons";
+// import { faCheckSquare as faCheckSquareSolid } from "@fortawesome/free-solid-svg-icons";
 
 function SkillCard({ skillicon, title, tags, delay }) {
   const [ref, visible] = useReveal();
