@@ -2,9 +2,22 @@ import { useReveal } from './useReveal';
 import SectionHeader from './SectionHeader';
 import { data } from '../data/portfolio';
 import './Skills.css';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faCode } from "@fortawesome/free-solid-svg-icons";
+import { faDesktop } from "@fortawesome/free-solid-svg-icons";
+import { faDatabase } from "@fortawesome/free-solid-svg-icons";
+import { faCloud } from "@fortawesome/free-solid-svg-icons";
+import { faChartLine } from "@fortawesome/free-solid-svg-icons";
+import { faCheckSquare } from "@fortawesome/free-solid-svg-icons";
+import { faServer } from "@fortawesome/free-solid-svg-icons";
+import { faCheckSquare as faCheckSquareRegular } from "@fortawesome/free-regular-svg-icons";
+import { faCheckSquare as faCheckSquareSolid } from "@fortawesome/free-solid-svg-icons";
 
-function SkillCard({ icon, title, tags, delay }) {
+function SkillCard({ skillicon, title, tags, delay }) {
   const [ref, visible] = useReveal();
+  const iconMap = { faChartLine, faServer, faCode, faDesktop, faDatabase, faCloud, faCheckSquare };
+  const icon = iconMap[skillicon] || faCode; // Default to faCode if not found
+
   return (
     <div
       ref={ref}
@@ -13,7 +26,7 @@ function SkillCard({ icon, title, tags, delay }) {
       data-hover
     >
       <div className="skill-card-accent" />
-      <div className="skill-card-icon">{icon}</div>
+      <div className="skill-card-icon"><FontAwesomeIcon icon={icon} size="1x" /></div>
       <div className="skill-card-title">{title}</div>
       <div className="skill-tags">
         {tags.map((t) => (

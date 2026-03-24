@@ -42,7 +42,7 @@
 }
 .exp-role {
   font-family: var(--font-sans);
-  font-size: 22px; font-weight: 700;
+  font-size: 22px; font-weight: 600;
   color: var(--ink); letter-spacing: -0.02em; line-height: 1.2;
 }
 .exp-toggle {

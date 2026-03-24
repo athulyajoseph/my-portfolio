@@ -17,7 +17,7 @@
 .footer-cta-text {
   font-family: var(--font-sans);
   font-size: clamp(36px, 4.5vw, 64px);
-  font-weight: 700;
+  font-weight: 600;
   color: var(--white);
   line-height: 1.05;
   letter-spacing: -0.03em;

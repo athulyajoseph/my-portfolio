@@ -24,32 +24,32 @@ export const data = {
 
   skills: [
     {
-      icon: "⚙",
+      skillicon: "faCode", // Replace with actual FontAwesomeIcon component in Skills.jsx
       title: "Backend",
       tags: ["PHP", "Laravel", "CodeIgniter", "Core PHP", "RESTful APIs", "MVC Architecture"],
     },
     {
-      icon: "◫",
+      skillicon: "faDesktop",
       title: "Frontend",
       tags: ["React", "AngularJS", "Angular", "TypeScript", "JavaScript", "HTML5", "CSS3", "Bootstrap"],
     },
     {
-      icon: "◈",
+      skillicon: "faDatabase",
       title: "Databases",
       tags: ["PostgreSQL", "MySQL", "Redis", "Memcached"],
     },
     {
-      icon: "☁",
+      skillicon: "faCloud",
       title: "DevOps & Cloud",
       tags: ["Docker", "Jenkins", "CI/CD", "AWS S3", "GitHub", "Linux", "Apache"],
     },
     {
-      icon: "◎",
+      skillicon: "faChartLine",
       title: "Analytics & CMS",
       tags: ["Adobe Analytics", "Adobe Target", "AEM", "WordPress", "Contentful", "Magento"],
     },
     {
-      icon: "◻",
+      icon: "faCheckSquare",
       title: "Methods & Testing",
       tags: ["Agile", "Scrum", "PHPUnit", "Sprint Planning", "Technical Documentation"],
     },
@@ -69,7 +69,7 @@ export const data = {
         "Integrated Adobe Analytics & Adobe Target for A/B personalization and user behavior tracking.",
         "Mentored junior developers, conducted code reviews, and led Agile/Scrum ceremonies.",
       ],
-      tags: ["Laravel", "React", "AngularJS", "Docker", "AEM", "Contentful", "Adobe Analytics", "PostgreSQL"],
+      tags: ["PHP", "Laravel", "React", "AngularJS", "TypeScript", "PostgreSQL", "MySQL", "AEM", "Contentful", "Adobe Analytics", "Adobe Target","Contentsquare", "Redis", "Active Directory", "Jenkins", "Jira", "Docker", "Linux", "Agile", "Scrum", "PHPUnit", "Sprint Planning", "Technical Documentation"],
     },
     {
       role: "PHP Developer",
@@ -81,7 +81,7 @@ export const data = {
         "Designed and optimized MySQL schemas for high-frequency location and tracking data.",
         "Delivered backend support for Magento e-commerce projects including custom modules and integrations.",
       ],
-      tags: ["Laravel", "Angular", "MySQL", "Magento", "RESTful API"],
+      tags: ["Laravel", "CodeIgniter", "MySQL", "Magento", "RESTful API", "Amazon S3", "GitHub", "Bootstrap", "Memcached", "JavaScript", "JQuery", "Moodle"],
     },
     {
       role: "Web Developer",
@@ -92,7 +92,7 @@ export const data = {
         "Implemented PHP-based backend features integrated with MySQL.",
         "Managed CMS migrations and third-party integrations.",
       ],
-      tags: ["WordPress", "PHP", "MySQL"],
+      tags: ["WordPress", "Core PHP", "MySQL", "WooCommerce", "Custom Theme Development", "Plugin Development"],
     },
     {
       role: "PHP Developer",
@@ -103,7 +103,7 @@ export const data = {
         "Contributed to sprint planning and technical documentation.",
         "Supported testing, deployment, and post-release maintenance.",
       ],
-      tags: ["PHP", "Agile", "MySQL"],
+      tags: ["PHP", "CodeIgniter", "WordPress", "Agile", "MySQL"],
     },
   ],
 

@@ -34,7 +34,7 @@
 .project-card-num {
   position: absolute; top: 20px; right: 28px;
   font-family: var(--font-sans);
-  font-size: 64px; font-weight: 700;
+  font-size: 64px; font-weight: 600;
   color: rgba(255,255,255,0.04);
   line-height: 1; pointer-events: none; user-select: none;
   letter-spacing: -0.04em;
@@ -53,7 +53,7 @@
 
 .project-name {
   font-family: var(--font-sans);
-  font-size: 26px; font-weight: 700;
+  font-size: 26px; font-weight: 600;
   color: var(--white); margin-bottom: 14px;
   line-height: 1.2; letter-spacing: -0.02em;
 }

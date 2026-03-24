@@ -16,7 +16,7 @@ export default function About() {
             <blockquote className="about-quote">
               "Engineering systems that scale, teams that grow, products that last."
             </blockquote>
-            <div className="about-contact">
+            {/* <div className="about-contact">
               <a href={`mailto:${data.email}`} className="contact-item">
                 <span className="contact-icon">✉</span>
                 {data.email}
@@ -33,7 +33,7 @@ export default function About() {
                 <span className="contact-icon">◉</span>
                 {data.location}
               </span>
-            </div>
+            </div> */}
           </div>
           <div ref={rightRef} className={`about-right${rightVisible ? ' visible' : ''}`}>
             {data.about.map((p, i) => (

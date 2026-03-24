@@ -103,4 +103,11 @@ src/
 
 ---
 
-Built with ♥ for Athulya Joseph
+## Ownership
+© 2026 Athulya. All rights reserved.
+
+Unauthorized use or distribution is prohibited.
+
+---
+
+Built by Athulya Joseph

@@ -1,26 +1,31 @@
 import { data } from '../data/portfolio';
 import './Hero.css';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
+import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import { faPhone } from "@fortawesome/free-solid-svg-icons";
+import { faMapMarkerAlt } from "@fortawesome/free-solid-svg-icons";
+import { faFilePdf } from "@fortawesome/free-solid-svg-icons";
+import resumePDF from '../assets/Athulya Joseph Resume.pdf';
 
 export default function Hero() {
   return (
     <section id="hero" className="hero">
 
-      {/* ── TOP: Photo | Details ── */}
+      {/* ── TOP — photo + details ── */}
       <div className="hero-top">
 
-        {/* LEFT — photo placeholder */}
+        {/* LEFT */}
         <div className="hero-photo-wrap anim anim-1">
           <div className="hero-photo-placeholder">
-            {/* Replace this div with: <img src={require('../assets/photo.jpg')} alt="Athulya Joseph" /> */}
-            
-            {/* <div className="hero-photo-initials">AJ</div> */}
-            <div className="hero-photo-hint">
+                <div className="hero-photo-hint">
               <img src={require('../assets/photo.jpeg')} alt="Athulya Joseph" />
             </div>
           </div>
         </div>
 
-        {/* RIGHT — details */}
+        {/* RIGHT */}
         <div className="hero-details">
           <div className="hero-badge anim anim-1">
             <span className="hero-badge-dot" />
@@ -36,16 +41,34 @@ export default function Hero() {
 
           <div className="hero-contact anim anim-4">
             <a href={`mailto:${data.email}`} className="hero-contact-item">
-              <span className="hero-contact-icon">✉</span>{data.email}
+              <span className="hero-contact-icon">
+                <FontAwesomeIcon icon={faEnvelope} size="1x" />
+              </span>
+              {data.email}
             </a>
             <a href={`tel:${data.phone}`} className="hero-contact-item">
-              <span className="hero-contact-icon">☏</span>{data.phone}
+              <span className="hero-contact-icon">
+                <FontAwesomeIcon icon={faPhone} size="1x" />
+              </span>
+              {data.phone}
             </a>
             <a href={data.linkedin} target="_blank" rel="noreferrer" className="hero-contact-item">
-              <span className="hero-contact-icon">in</span>linkedin.com/in/athulyajoseph
+              <span className="hero-contact-icon">
+                <FontAwesomeIcon icon={faLinkedin} size="1x" />
+              </span>
+             linkedin.com/in/athulyajoseph
+            </a>
+            <a href={data.github} target="_blank" rel="noreferrer" className="hero-contact-item">
+              <span className="hero-contact-icon">
+                <FontAwesomeIcon icon={faGithub} size="1x" />
+              </span>
+              github.com/athulyajoseph
             </a>
             <span className="hero-contact-item">
-              <span className="hero-contact-icon">◉</span>{data.location}
+              <span className="hero-contact-icon">
+                <FontAwesomeIcon icon={faMapMarkerAlt} size="1x" />
+              </span>
+              {data.location}
             </span>
           </div>
 
@@ -56,6 +79,17 @@ export default function Hero() {
             <a href={`mailto:${data.email}`} className="btn btn--outline">
               Get In Touch
             </a>
+            <a
+                          href={resumePDF}
+                          download="Athulya_Joseph_Resume.pdf"
+                          className="btn btn--download"
+                          title="Download Resume"
+                        >
+                          <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M8 1v9M8 10l-3-3M8 10l3-3M2 13h12" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+                          </svg>
+                          Resume
+                        </a>
           </div>
         </div>
       </div>

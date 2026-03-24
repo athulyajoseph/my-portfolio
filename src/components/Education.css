@@ -28,7 +28,7 @@
 .edu-short {
   display: inline-block;
   font-family: var(--font-sans);
-  font-size: 12px; font-weight: 700;
+  font-size: 12px; font-weight: 600;
   letter-spacing: 0.06em; text-transform: uppercase;
   color: var(--accent);
   background: var(--accent-dim);
@@ -38,7 +38,7 @@
 }
 .edu-degree {
   font-family: var(--font-sans);
-  font-size: 26px; font-weight: 700;
+  font-size: 26px; font-weight: 600;
   color: var(--ink); line-height: 1.3;
   margin-bottom: 12px; letter-spacing: -0.02em;
 }
