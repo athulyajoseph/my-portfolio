@@ -19,7 +19,7 @@ export default function Footer() {
         </div>
 
         <div className="footer-desc">
-          I'm open to senior full-stack roles and opportunities to build reliable, scalable applications. If you're looking for a developer who can deliver consistent, production-ready solutions, feel free to reach out.
+          Open to full-time senior engineering roles and select contract projects. Based in Germany - available for remote and hybrid opportunities worldwide.
         </div>
 
         <div className="footer-divider" />

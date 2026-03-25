@@ -3,7 +3,7 @@ export const data = {
   title: "Senior Full Stack Developer",
   tagline: "PHP · Laravel · React · AngularJS",
   summary:
-    "8+ years of experience building scalable web applications across logistics, enterprise systems, and analytics platforms. I specialize in PHP, Laravel,JavaScript, React and headless CMS on delivering reliable, maintainable systems that perform consistently in real-world environments. I thrive in Agile teams, value clean code, and believe the best engineers are the ones who make their teams better.",
+    "8 years of experience building scalable web applications and enterprise platforms. I specialise in PHP, Laravel, JavaScript, React and headless CMS - delivering reliable, maintainable systems that perform consistently across diverse team environments. I enjoy leading teams, value clean code, and believe the best engineers are the ones who make their teams better.",
   location: "Berlin, Germany",
   email: "athulyajoseph0@gmail.com",
   phone: "+49 152 1453 2946",
@@ -13,31 +13,22 @@ export const data = {
     { num: "8+", label: "Years Experience" },
     { num: "4", label: "Companies" },
     { num: "15+", label: "Technologies" },
-    { num: "500k+", label: "Users Served" },
+    { num: "100k+", label: "Users Served" },
   ],
 
   about: [
-    "I'm a Senior Full Stack Developer with over 8 years of experience designing and delivering scalable web applications across diverse industries — from port logistics and vehicle fleet management to e-commerce and enterprise CMS platforms.",
-    "My core expertise spans PHP ecosystems (Laravel, CodeIgniter), modern JavaScript frontends (React, Angular), and cloud-native DevOps practices. I've led architecture migrations, built RESTful microservice APIs at scale, and integrated analytics platforms like Adobe Analytics and Adobe Target.",
-    "I thrive in Agile environments, value clean code over clever code, and believe the best engineers are the ones who make their teams better.",
-    "Core strengths:"
+    "I'm a Senior Full-Stack Developer with over 8 years of experience designing and delivering scalable web applications across diverse industries - from e-commerce and enterprise portals to content management platforms. I've led and contributed to teams across multiple organisations, consistently shipping clean, maintainable systems that perform under real-world conditions.",
+    "My core expertise spans PHP and Laravel on the back-end, React and TypeScript on the front-end, and headless CMS platforms - particularly AEM and Contentful - for enterprise-scale content delivery. I take a pragmatic approach to architecture: choosing the right tool for the problem, writing code that's easy to hand off, and keeping systems observable and maintainable over time. I've led architecture migrations, built RESTful microservice APIs at scale, and integrated analytics platforms like Adobe Analytics and Adobe Target.",
+    "What drives me is impact. I get the most satisfaction when something I've built genuinely makes a user's day easier - not just technically impressive, but actually needed.",
   ],
-
-  coreStrengths: [
-    "Backend development with PHP and relational databases",
-    "Building responsive and intuitive frontend interfacesusing React and Angular",
-    "Improving performance and optimizing existing systems",
-    "Designing efficient database schemas and optimizing queries",
-    "Implementing CI/CD pipelines and Docker-based deployments",
-    "Integrating analytics for data-driven product improvements",
-    "Mentoring junior developers and leading Agile teams"
-  ],
-
+  
   aboutBullets: [
-    "8+ years of professional development experience",
-    "Proven track record of delivering high-impact projects for clients like Harley-Davidson and xPort",      
-    "Strong focus on clean architecture and scalable systems",
-    "Experienced in delivering end-to-end web solutions"
+    "Proven track record of delivering high-impact projects for clients like Harley-Davidson and Major Port Management Platforms",    
+    "Delivered 15+ production applications across enterprise and e-commerce",
+    "Building responsive and intuitive frontend interfaces using React and Angular and Backend development with PHP and relational databases",
+    "Proven expertise in AEM, Contentful, and headless CMS at scale",
+    "Strong focus on clean architecture, performance, and cross-team collaboration",
+    "Currently leading full-stack development at Experion Technologies"
   ],
 
   skills: [
@@ -77,7 +68,7 @@ export const data = {
     {
       role: "Technical Lead",
       company: "Experion Technologies",
-      period: "Aug 2021 — Present",
+      period: "Aug 2021 - Present",
       bullets: [
         "Led full stack development for Harley-Davidson and xPort (port management platform) using Laravel, React, AngularJS, AEM & Contentful.",
         "Designed and maintained scalable RESTful APIs handling high traffic and complex business logic.",
@@ -93,7 +84,7 @@ export const data = {
     {
       role: "PHP Developer",
       company: "Qaptive Technologies",
-      period: "Mar 2019 — Mar 2021",
+      period: "Mar 2019 - Mar 2021",
       bullets: [
         "Built and maintained backend services for Loqqat (school bus tracking) and Loqqat Ride (employee commute platform) using Laravel, Angular & Bootstrap.",
         "Developed RESTful APIs and integrated third-party cloud services for real-time mobile data exchange.",
@@ -105,7 +96,7 @@ export const data = {
     {
       role: "Web Developer",
       company: "Ridgecone Technologies",
-      period: "Feb 2018 — Jan 2019",
+      period: "Feb 2018 - Jan 2019",
       bullets: [
         "Developed and customized WordPress themes and plugins.",
         "Implemented PHP-based backend features integrated with MySQL.",
@@ -116,7 +107,7 @@ export const data = {
     {
       role: "PHP Developer",
       company: "BC to AD Hyperlink Ltd",
-      period: "Jan 2017 — Feb 2018",
+      period: "Jan 2017 - Feb 2018",
       bullets: [
         "Developed backend modules using PHP aligned with business requirements.",
         "Contributed to sprint planning and technical documentation.",

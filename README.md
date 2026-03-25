@@ -1,4 +1,4 @@
-# Athulya Joseph — Portfolio
+# Athulya Joseph - Portfolio
 
 Premium React portfolio. Built with Create React App, zero UI libraries, pure CSS.
 
@@ -19,7 +19,7 @@ Runs at `http://localhost:3000`
 npm run build
 ```
 
-Outputs to `/build` — ready to deploy anywhere.
+Outputs to `/build` - ready to deploy anywhere.
 
 ---
 
@@ -47,7 +47,7 @@ This runs `npm run build` then pushes `/build` to the `gh-pages` branch automati
 - Go to your repo → **Settings** → **Pages**
 - Source: `Deploy from a branch`
 - Branch: `gh-pages` / `root`
-- Save — live in ~60 seconds at `https://YOUR_USERNAME.github.io/YOUR_REPO_NAME`
+- Save - live in ~60 seconds at `https://YOUR_USERNAME.github.io/YOUR_REPO_NAME`
 
 ---
 

@@ -5,13 +5,13 @@
   padding: 0;
 }
 
-/* ── DESIGN TOKENS — Contentful-inspired ── */
+/* ── DESIGN TOKENS - Contentful-inspired ── */
 :root {
   /* Colours */
   --white:       #ffffff;
-  --bg:          #f3f5f8;       /* page background — cool light grey */
+  --bg:          #f3f5f8;       /* page background - cool light grey */
   --bg-card:     #ffffff;       /* card surface */
-  --bg-dark:     #0f1521;       /* dark sections — deep navy */
+  --bg-dark:     #0f1521;       /* dark sections - deep navy */
   --bg-dark2:    #1a2336;
   --ink:         #1a1a2e;       /* near-black text */
   --ink2:        #2d3748;
@@ -20,7 +20,7 @@
   --border:      #e2e8f0;       /* card borders */
   --border-dark: rgba(255,255,255,0.08);
 
-  /* Accent — Contentful coral/orange-red */
+  /* Accent - Contentful coral/orange-red */
   --accent:      #f05a28;
   --accent2:     #fbbf24;       /* yellow for second accent */
   --accent3:     #3b82f6;       /* blue for third accent */

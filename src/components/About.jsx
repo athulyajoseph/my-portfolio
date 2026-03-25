@@ -59,11 +59,6 @@ export default function About() {
             {data.about.map((p, i) => (
               <p key={i} className="about-text">{p}</p>
             ))}
-            <ul className="core-strengths">
-              {data.coreStrengths.map((s, i) => (
-                <li key={i} className="core-strength">{s}</li>
-              ))}
-            </ul>
           </div>
         </div>
       </div>

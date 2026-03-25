@@ -1,5 +1,5 @@
 /* ══════════════════════════════════════
-   HERO — Contentful style
+   HERO - Contentful style
    ══════════════════════════════════════ */
 
 .hero {
@@ -23,7 +23,7 @@
   min-height: calc(100vh - 180px); */
 }
 
-/* ── LEFT — photo ── */
+/* ── LEFT - photo ── */
 .hero-photo-wrap {
   position: relative;
   background: var(--bg);

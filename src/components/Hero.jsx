@@ -6,7 +6,7 @@ export default function Hero() {
   return (
     <section id="hero" className="hero">
 
-      {/* ── TOP — photo + details ── */}
+      {/* ── TOP - photo + details ── */}
       <div className="hero-top">
 
         {/* LEFT */}
@@ -55,7 +55,7 @@ export default function Hero() {
         </div>
       </div>
 
-      {/* ── BOTTOM — stats strip ── */}
+      {/* ── BOTTOM - stats strip ── */}
       <div className="hero-stats-strip">
         <div className="hero-bg-text" aria-hidden="true">AJ</div>
         <div className="hero-stats-inner">
