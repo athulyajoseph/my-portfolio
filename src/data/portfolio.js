@@ -3,7 +3,7 @@ export const data = {
   title: "Senior Full Stack Developer",
   tagline: "PHP · Laravel · React · AngularJS",
   summary:
-    "8 years of experience building scalable web applications and enterprise platforms. I specialise in PHP, Laravel, JavaScript, React and headless CMS - delivering reliable, maintainable systems that perform consistently across diverse team environments. I enjoy leading teams, value clean code, and believe the best engineers are the ones who make their teams better.",
+    "Senior Full-Stack Developer with 8+ years of experience building scalable web applications and enterprise platforms. I specialise in PHP, Laravel, JavaScript, and modern frontend frameworks, with a focus on developing reliable, maintainable systems that perform consistently in production environments. My work spans backend architecture, API design, and responsive user interfaces. I have contributed to and led the delivery of multiple production systems across enterprise and e-commerce domains, with an emphasis on clean architecture, performance optimisation, and long-term maintainability. I work closely with cross-functional teams to deliver stable, well-tested solutions in structured development environments.",
   location: "Berlin, Germany",
   email: "athulyajoseph0@gmail.com",
   phone: "+49 152 1453 2946",
@@ -23,12 +23,13 @@ export const data = {
   ],
   
   aboutBullets: [
-    "Proven track record of delivering high-impact projects for clients like Harley-Davidson and Major Port Management Platforms",    
-    "Delivered 15+ production applications across enterprise and e-commerce",
-    "Building responsive and intuitive frontend interfaces using React and Angular and Backend development with PHP and relational databases",
-    "Proven expertise in AEM, Contentful, and headless CMS at scale",
-    "Strong focus on clean architecture, performance, and cross-team collaboration",
-    "Currently leading full-stack development at Experion Technologies"
+    "Delivered 15+ production applications across enterprise and e-commerce domains", 
+    "Contributed to platforms serving 100K+ users with a focus on reliability and performance", 
+    "Designed and developed RESTful APIs and backend systems using PHP and Laravel", 
+    "Built responsive frontend applications using React and Angular", 
+    "Worked with AEM, Contentful, and headless CMS architectures", 
+    "Improved application performance and maintainability across multiple projects", 
+    "Collaborated with cross-functional teams in agile development environments"
   ],
 
   skills: [
