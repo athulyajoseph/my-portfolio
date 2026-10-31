@@ -8,6 +8,7 @@ export const data = {
   email: "athulyajoseph0@gmail.com",
   phone: "+49 152 1453 2946",
   linkedin: "https://linkedin.com/in/athulyajoseph",
+  github: "https://github.com/athulyajoseph",
 
   stats: [
     { num: "8+", label: "Years Experience" },
