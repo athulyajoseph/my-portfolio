@@ -1,6 +1,0 @@
-/* App-level layout - most styles live in component CSS files */
-
-main {
-  position: relative;
-  z-index: 1;
-}
