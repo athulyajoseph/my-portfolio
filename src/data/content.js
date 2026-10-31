@@ -101,7 +101,7 @@ export const data = {
       featured: true,
     },
     {
-      client: "Harley-Davidson",
+      client: "Global motorcycle brand · USA",
       name: "Global web platform",
       desc: "Full-stack delivery on AEM and Contentful, with Adobe Target and Adobe Analytics powering personalization and A/B testing across global markets.",
       highlights: ["Personalization", "A/B testing", "Global markets"],
