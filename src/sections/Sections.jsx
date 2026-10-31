@@ -17,6 +17,13 @@ const NAV = [
   { id: 'contact', label: 'Contact' },
 ];
 
+// Keeps hyphenated words like "e-commerce" from splitting across lines.
+function noBreakHyphens(text) {
+  return text.split(/(\S+-\S+)/g).map((part, i) =>
+    i % 2 ? <span key={i} className="nowrap">{part}</span> : part
+  );
+}
+
 function Reveal({ as: Tag = 'div', className = '', delay = 0, children, ...rest }) {
   const [ref, visible] = useReveal();
   return (
@@ -105,7 +112,7 @@ export function Hero() {
           </p>
           <h1 className="anim anim-2">{data.name}</h1>
           <p className="hero-headline anim anim-3">{data.headline}</p>
-          <p className="hero-intro anim anim-3">{data.intro}</p>
+          <p className="hero-intro anim anim-3">{noBreakHyphens(data.intro)}</p>
           <div className="hero-cta anim anim-4">
             <a href="#work" className="btn btn--primary">See my work <FontAwesomeIcon icon={faArrowRight} /></a>
             <a href={resumePDF} download="Athulya_Joseph_Resume.pdf" className="btn btn--ghost">Download résumé <FontAwesomeIcon icon={faArrowDown} /></a>
