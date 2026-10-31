@@ -30,6 +30,7 @@ export default function Footer() {
           </div>
           <ul className="footer-links">
             <li><a href={data.linkedin} target="_blank" rel="noreferrer">LinkedIn</a></li>
+            <li><a href={data.github} target="_blank" rel="noreferrer">GitHub</a></li>
             <li><a href={`mailto:${data.email}`}>Email</a></li>
             <li><a href={`tel:${data.phone}`}>Phone</a></li>
           </ul>
